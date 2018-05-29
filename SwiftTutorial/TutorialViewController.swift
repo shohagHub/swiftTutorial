@@ -68,6 +68,8 @@ class TutorialViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Tutorial View Controller"
         // Do any additional setup after loading the view.
+        let firstFile = FirstFile()
+        firstFile.doSomeTask()
         setScrollView();
     }
     func setScrollView() {

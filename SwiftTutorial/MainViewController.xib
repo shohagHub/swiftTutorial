@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -75,6 +75,10 @@
                         <action selector="goToLayer:" destination="-1" eventType="touchUpInside" id="ilV-en-p6a"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4l-O8-yAz">
+                    <rect key="frame" x="0.0" y="356" width="375" height="30"/>
+                    <state key="normal" title="SharedPreference"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -85,13 +89,16 @@
                 <constraint firstItem="gdt-dr-uCr" firstAttribute="top" secondItem="Sg0-42-qkB" secondAttribute="bottom" constant="6" id="7xr-bn-HQy"/>
                 <constraint firstItem="ywB-r2-00S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="CVs-lv-quO"/>
                 <constraint firstItem="PQ7-wc-Ckp" firstAttribute="top" secondItem="hrX-wn-a8W" secondAttribute="bottom" constant="5" id="DLU-qq-N8h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="c4l-O8-yAz" secondAttribute="trailing" id="I40-R4-BNc"/>
                 <constraint firstItem="qvm-o2-0PG" firstAttribute="top" secondItem="PQ7-wc-Ckp" secondAttribute="bottom" constant="19" id="IYI-GS-LHV"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PQ7-wc-Ckp" secondAttribute="trailing" id="KMN-o6-ghD"/>
                 <constraint firstItem="Sg0-42-qkB" firstAttribute="top" secondItem="ywB-r2-00S" secondAttribute="bottom" constant="8" id="Lzr-Ip-niO"/>
                 <constraint firstItem="PQ7-wc-Ckp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MOG-Rk-Hoa"/>
                 <constraint firstItem="qvm-o2-0PG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MQx-C8-Bux"/>
+                <constraint firstItem="c4l-O8-yAz" firstAttribute="top" secondItem="gdt-dr-uCr" secondAttribute="bottom" constant="8" id="Rqd-ay-BHr"/>
                 <constraint firstItem="ywB-r2-00S" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Tig-Sh-W6F"/>
                 <constraint firstItem="hrX-wn-a8W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VHv-oC-G8h"/>
+                <constraint firstItem="c4l-O8-yAz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ap3-5w-r0h"/>
                 <constraint firstItem="MxP-Vs-2dn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dbx-B0-xur"/>
                 <constraint firstItem="Sg0-42-qkB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kAc-Q9-AUb"/>
                 <constraint firstItem="hrX-wn-a8W" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="yGn-Od-lah"/>
