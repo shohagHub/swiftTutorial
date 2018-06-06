@@ -21,7 +21,10 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let arraySort = SortArray()
+        arraySort.sortArray()
+        let genericBehave = GenericBehave.init()
+        genericBehave.genericTest()
         // Do any additional setup after loading the view.
     }
 
@@ -32,6 +35,7 @@ class MainViewController: UIViewController {
 
     @IBAction func initialization(_ sender: UIButton) {
         print("initialization")
+        
         var _ = Fahrenheit()
         let boilingPointOfWater: Celcius = Celcius(fromFarenheit: 212.0)
         print(boilingPointOfWater)
@@ -71,4 +75,11 @@ class MainViewController: UIViewController {
         let layerViewController = LayerViewController()
         self.navigationController?.pushViewController(layerViewController, animated: true)
     }
+    @IBAction func sharedPreference(_ sender: UIButton) {
+        print("sharedPreference");
+        writeToSharedPref()
+        readValueFromSharedPref()
+    }
+    
+    
 }

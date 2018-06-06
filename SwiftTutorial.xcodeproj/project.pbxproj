@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		890F9CC820BC6A3700D36A9A /* FirstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F9CC720BC6A3700D36A9A /* FirstFile.swift */; };
 		890F9CCA20BC6A4400D36A9A /* SecondFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F9CC920BC6A4400D36A9A /* SecondFile.swift */; };
+		890F9CCD20BD77AE00D36A9A /* SharedPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F9CCC20BD77AE00D36A9A /* SharedPreference.swift */; };
 		89266C701FCC64E6000615CA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89266C6F1FCC64E6000615CA /* RatingControl.swift */; };
+		8939800420C1C11800E45987 /* BaseAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939800320C1C11800E45987 /* BaseAggregate.swift */; };
+		8939800620C1C1FE00E45987 /* BloodGlucoseAggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939800520C1C1FE00E45987 /* BloodGlucoseAggregate.swift */; };
+		8939800820C1C2B500E45987 /* GenericBehave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939800720C1C2B500E45987 /* GenericBehave.swift */; };
 		893FDD652003ED8D00DD3D99 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893FDD632003ED8D00DD3D99 /* ModalViewController.swift */; };
 		893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD642003ED8D00DD3D99 /* ModalViewController.xib */; };
 		89595EED1FD244F0008A3CE5 /* UiTableViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */; };
 		89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */; };
 		8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0DE1FBFC82400C6B8B0 /* Function.swift */; };
 		8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0E01FC024CF00C6B8B0 /* Closure.swift */; };
+		89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A17EBC20C73CB7004B694C /* SortArray.swift */; };
 		89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */; };
 		89B826FE20053BE30094F417 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B826FC20053BE30094F417 /* LayerViewController.swift */; };
 		89B826FF20053BE30094F417 /* LayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B826FD20053BE30094F417 /* LayerViewController.xib */; };
@@ -41,13 +46,18 @@
 /* Begin PBXFileReference section */
 		890F9CC720BC6A3700D36A9A /* FirstFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFile.swift; sourceTree = "<group>"; };
 		890F9CC920BC6A4400D36A9A /* SecondFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFile.swift; sourceTree = "<group>"; };
+		890F9CCC20BD77AE00D36A9A /* SharedPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreference.swift; sourceTree = "<group>"; };
 		89266C6F1FCC64E6000615CA /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		8939800320C1C11800E45987 /* BaseAggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAggregate.swift; sourceTree = "<group>"; };
+		8939800520C1C1FE00E45987 /* BloodGlucoseAggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodGlucoseAggregate.swift; sourceTree = "<group>"; };
+		8939800720C1C2B500E45987 /* GenericBehave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBehave.swift; sourceTree = "<group>"; };
 		893FDD632003ED8D00DD3D99 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		893FDD642003ED8D00DD3D99 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewTestViewController.swift; sourceTree = "<group>"; };
 		89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewTestViewController.xib; sourceTree = "<group>"; };
 		8969B0DE1FBFC82400C6B8B0 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		8969B0E01FC024CF00C6B8B0 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		89A17EBC20C73CB7004B694C /* SortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray.swift; sourceTree = "<group>"; };
 		89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
 		89B826FC20053BE30094F417 /* LayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
 		89B826FD20053BE30094F417 /* LayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerViewController.xib; sourceTree = "<group>"; };
@@ -92,6 +102,32 @@
 			path = delegate;
 			sourceTree = "<group>";
 		};
+		890F9CCB20BD779500D36A9A /* sharedpreference */ = {
+			isa = PBXGroup;
+			children = (
+				890F9CCC20BD77AE00D36A9A /* SharedPreference.swift */,
+			);
+			path = sharedpreference;
+			sourceTree = "<group>";
+		};
+		8939800220C1BDDE00E45987 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				8939800320C1C11800E45987 /* BaseAggregate.swift */,
+				8939800520C1C1FE00E45987 /* BloodGlucoseAggregate.swift */,
+				8939800720C1C2B500E45987 /* GenericBehave.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		89A17EBB20C73C9F004B694C /* arraysort */ = {
+			isa = PBXGroup;
+			children = (
+				89A17EBC20C73CB7004B694C /* SortArray.swift */,
+			);
+			path = arraysort;
+			sourceTree = "<group>";
+		};
 		89FD89A91FB85B8A001AA182 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +157,9 @@
 		89FF1F3B1FADB6F9008132D9 /* SwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				89A17EBB20C73C9F004B694C /* arraysort */,
+				8939800220C1BDDE00E45987 /* Generic */,
+				890F9CCB20BD779500D36A9A /* sharedpreference */,
 				890F9CC620BC6A1E00D36A9A /* delegate */,
 				89FD89A91FB85B8A001AA182 /* Images */,
 				89FF1F3C1FADB6F9008132D9 /* AppDelegate.swift */,
@@ -235,6 +274,7 @@
 			files = (
 				89F1CF9A1FF80D9E00547F40 /* Time.swift in Sources */,
 				89FF1F3F1FADB6F9008132D9 /* ViewController.swift in Sources */,
+				8939800420C1C11800E45987 /* BaseAggregate.swift in Sources */,
 				890F9CC820BC6A3700D36A9A /* FirstFile.swift in Sources */,
 				89F51B702001490E00358370 /* Inheritence.swift in Sources */,
 				89CED5B31FB69C4000CBB3F6 /* FoodViewController.swift in Sources */,
@@ -244,12 +284,16 @@
 				893FDD652003ED8D00DD3D99 /* ModalViewController.swift in Sources */,
 				89E8513C1FE65B870009C9C3 /* Inittialization.swift in Sources */,
 				89595EED1FD244F0008A3CE5 /* UiTableViewTestViewController.swift in Sources */,
+				890F9CCD20BD77AE00D36A9A /* SharedPreference.swift in Sources */,
+				89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */,
 				89266C701FCC64E6000615CA /* RatingControl.swift in Sources */,
 				8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */,
+				8939800620C1C1FE00E45987 /* BloodGlucoseAggregate.swift in Sources */,
 				890F9CCA20BC6A4400D36A9A /* SecondFile.swift in Sources */,
 				89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */,
 				89FF1F3D1FADB6F9008132D9 /* AppDelegate.swift in Sources */,
 				89CED5AF1FB699D200CBB3F6 /* MainViewController.swift in Sources */,
+				8939800820C1C2B500E45987 /* GenericBehave.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
