@@ -18,13 +18,16 @@ class MainViewController: UIViewController {
         let viewController = FoodViewController()
         self.navigationController?.pushViewController(viewController, animated: true)
     }
-    
+    /*
+     //MARK:: Test Code
+     let arraySort = SortArray()
+     arraySort.sortArray()
+     let genericBehave = GenericBehave.init()
+     genericBehave.genericTest()
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
-        let arraySort = SortArray()
-        arraySort.sortArray()
-        let genericBehave = GenericBehave.init()
-        genericBehave.genericTest()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -81,5 +84,10 @@ class MainViewController: UIViewController {
         readValueFromSharedPref()
     }
     
+    @IBAction func gotoUIHeck(_ sender: UIButton) {
+        print("gotoUIHeck")
+        let centerViewController = CenterViewController.init(nibName: "CenterViewController", bundle: nil)
+        self.navigationController?.pushViewController(centerViewController, animated: true)
+    }
     
 }

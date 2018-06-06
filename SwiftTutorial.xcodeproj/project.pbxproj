@@ -20,6 +20,9 @@
 		89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */; };
 		8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0DE1FBFC82400C6B8B0 /* Function.swift */; };
 		8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0E01FC024CF00C6B8B0 /* Closure.swift */; };
+		8993C81A20C843FF00632452 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8993C81820C843FF00632452 /* CenterViewController.swift */; };
+		8993C81B20C843FF00632452 /* CenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81920C843FF00632452 /* CenterViewController.xib */; };
+		8993C81D20C84B9200632452 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81C20C84B9200632452 /* square.png */; };
 		89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A17EBC20C73CB7004B694C /* SortArray.swift */; };
 		89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */; };
 		89B826FE20053BE30094F417 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B826FC20053BE30094F417 /* LayerViewController.swift */; };
@@ -57,6 +60,9 @@
 		89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewTestViewController.xib; sourceTree = "<group>"; };
 		8969B0DE1FBFC82400C6B8B0 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		8969B0E01FC024CF00C6B8B0 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		8993C81820C843FF00632452 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		8993C81920C843FF00632452 /* CenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterViewController.xib; sourceTree = "<group>"; };
+		8993C81C20C84B9200632452 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
 		89A17EBC20C73CB7004B694C /* SortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray.swift; sourceTree = "<group>"; };
 		89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
 		89B826FC20053BE30094F417 /* LayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,15 @@
 			path = Generic;
 			sourceTree = "<group>";
 		};
+		8993C81720C843B100632452 /* uiheck */ = {
+			isa = PBXGroup;
+			children = (
+				8993C81820C843FF00632452 /* CenterViewController.swift */,
+				8993C81920C843FF00632452 /* CenterViewController.xib */,
+			);
+			path = uiheck;
+			sourceTree = "<group>";
+		};
 		89A17EBB20C73C9F004B694C /* arraysort */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +146,7 @@
 		89FD89A91FB85B8A001AA182 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8993C81C20C84B9200632452 /* square.png */,
 				89B827002005470F0094F417 /* star.png */,
 				89FD89AA1FB85B8A001AA182 /* defaultPhoto.png */,
 				89FD89AB1FB85B8A001AA182 /* meal1.png */,
@@ -157,6 +173,7 @@
 		89FF1F3B1FADB6F9008132D9 /* SwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8993C81720C843B100632452 /* uiheck */,
 				89A17EBB20C73C9F004B694C /* arraysort */,
 				8939800220C1BDDE00E45987 /* Generic */,
 				890F9CCB20BD779500D36A9A /* sharedpreference */,
@@ -251,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89CED5B41FB69C4000CBB3F6 /* FoodViewController.xib in Resources */,
+				8993C81B20C843FF00632452 /* CenterViewController.xib in Resources */,
 				89FF1F471FADB6F9008132D9 /* LaunchScreen.storyboard in Resources */,
 				89FF1F441FADB6F9008132D9 /* Assets.xcassets in Resources */,
 				89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */,
@@ -259,6 +277,7 @@
 				89FD89AD1FB85B8A001AA182 /* meal1.png in Resources */,
 				893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */,
 				89FD89AC1FB85B8A001AA182 /* defaultPhoto.png in Resources */,
+				8993C81D20C84B9200632452 /* square.png in Resources */,
 				89FF1F531FADB730008132D9 /* TutorialViewController.xib in Resources */,
 				89B826FF20053BE30094F417 /* LayerViewController.xib in Resources */,
 				89FF1F421FADB6F9008132D9 /* Main.storyboard in Resources */,
@@ -273,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F1CF9A1FF80D9E00547F40 /* Time.swift in Sources */,
+				8993C81A20C843FF00632452 /* CenterViewController.swift in Sources */,
 				89FF1F3F1FADB6F9008132D9 /* ViewController.swift in Sources */,
 				8939800420C1C11800E45987 /* BaseAggregate.swift in Sources */,
 				890F9CC820BC6A3700D36A9A /* FirstFile.swift in Sources */,
