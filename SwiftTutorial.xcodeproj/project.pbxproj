@@ -20,6 +20,8 @@
 		89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */; };
 		8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0DE1FBFC82400C6B8B0 /* Function.swift */; };
 		8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0E01FC024CF00C6B8B0 /* Closure.swift */; };
+		8987F71120D8ECD900979222 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8987F70F20D8ECD900979222 /* CollectionViewController.swift */; };
+		8987F71220D8ECD900979222 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8987F71020D8ECD900979222 /* CollectionViewController.xib */; };
 		8993C81A20C843FF00632452 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8993C81820C843FF00632452 /* CenterViewController.swift */; };
 		8993C81B20C843FF00632452 /* CenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81920C843FF00632452 /* CenterViewController.xib */; };
 		8993C81D20C84B9200632452 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81C20C84B9200632452 /* square.png */; };
@@ -60,6 +62,8 @@
 		89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewTestViewController.xib; sourceTree = "<group>"; };
 		8969B0DE1FBFC82400C6B8B0 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		8969B0E01FC024CF00C6B8B0 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		8987F70F20D8ECD900979222 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8987F71020D8ECD900979222 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
 		8993C81820C843FF00632452 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 		8993C81920C843FF00632452 /* CenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterViewController.xib; sourceTree = "<group>"; };
 		8993C81C20C84B9200632452 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
@@ -126,6 +130,15 @@
 			path = Generic;
 			sourceTree = "<group>";
 		};
+		8987F70E20D8EC6500979222 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				8987F70F20D8ECD900979222 /* CollectionViewController.swift */,
+				8987F71020D8ECD900979222 /* CollectionViewController.xib */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
 		8993C81720C843B100632452 /* uiheck */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +186,7 @@
 		89FF1F3B1FADB6F9008132D9 /* SwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8987F70E20D8EC6500979222 /* collection */,
 				8993C81720C843B100632452 /* uiheck */,
 				89A17EBB20C73C9F004B694C /* arraysort */,
 				8939800220C1BDDE00E45987 /* Generic */,
@@ -273,6 +287,7 @@
 				89FF1F441FADB6F9008132D9 /* Assets.xcassets in Resources */,
 				89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */,
 				89CED5B01FB699D200CBB3F6 /* MainViewController.xib in Resources */,
+				8987F71220D8ECD900979222 /* CollectionViewController.xib in Resources */,
 				89B82701200547100094F417 /* star.png in Resources */,
 				89FD89AD1FB85B8A001AA182 /* meal1.png in Resources */,
 				893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */,
@@ -303,6 +318,7 @@
 				8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */,
 				893FDD652003ED8D00DD3D99 /* ModalViewController.swift in Sources */,
 				89E8513C1FE65B870009C9C3 /* Inittialization.swift in Sources */,
+				8987F71120D8ECD900979222 /* CollectionViewController.swift in Sources */,
 				89595EED1FD244F0008A3CE5 /* UiTableViewTestViewController.swift in Sources */,
 				890F9CCD20BD77AE00D36A9A /* SharedPreference.swift in Sources */,
 				89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */,

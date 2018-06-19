@@ -9,6 +9,10 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    
+    
+    
     @IBAction func goTutorialsView(_ sender: Any) {
         let viewController = TutorialViewController()
         self.navigationController?.pushViewController(viewController, animated: true)
@@ -88,6 +92,13 @@ class MainViewController: UIViewController {
         print("gotoUIHeck")
         let centerViewController = CenterViewController.init(nibName: "CenterViewController", bundle: nil)
         self.navigationController?.pushViewController(centerViewController, animated: true)
+    }
+    
+    
+    @IBAction func goToCollectionView(_ sender: UIButton) {
+        print("goToCollectionView")
+        let collectionView = CollectionViewController.init(nibName: "CollectionViewController", bundle: nil)
+        self.navigationController?.pushViewController(collectionView, animated: true)
     }
     
 }
