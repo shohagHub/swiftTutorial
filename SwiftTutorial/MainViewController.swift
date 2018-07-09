@@ -100,5 +100,9 @@ class MainViewController: UIViewController {
         let collectionView = CollectionViewController.init(nibName: "CollectionViewController", bundle: nil)
         self.navigationController?.pushViewController(collectionView, animated: true)
     }
+    @IBAction func shareVia(_ sender: UIButton) {
+        let shareViaViewController = ShareViaViewController.init(nibName: "ShareViaViewController", bundle: nil)
+        self.navigationController?.pushViewController(shareViaViewController, animated: true)
+    }
     
 }

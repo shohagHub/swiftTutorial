@@ -16,6 +16,7 @@
 		8939800820C1C2B500E45987 /* GenericBehave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939800720C1C2B500E45987 /* GenericBehave.swift */; };
 		893FDD652003ED8D00DD3D99 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893FDD632003ED8D00DD3D99 /* ModalViewController.swift */; };
 		893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD642003ED8D00DD3D99 /* ModalViewController.xib */; };
+		8947841F20E6BFDD00AEBACE /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8947841E20E6BFDD00AEBACE /* SwiftTimer.swift */; };
 		89595EED1FD244F0008A3CE5 /* UiTableViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */; };
 		89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */; };
 		8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0DE1FBFC82400C6B8B0 /* Function.swift */; };
@@ -27,6 +28,10 @@
 		8993C81A20C843FF00632452 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8993C81820C843FF00632452 /* CenterViewController.swift */; };
 		8993C81B20C843FF00632452 /* CenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81920C843FF00632452 /* CenterViewController.xib */; };
 		8993C81D20C84B9200632452 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 8993C81C20C84B9200632452 /* square.png */; };
+		899E491B20F3DB1800F434B4 /* ShareViaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899E491A20F3DB1800F434B4 /* ShareViaView.xib */; };
+		899E491D20F3DB8200F434B4 /* ShareViaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E491C20F3DB8200F434B4 /* ShareViaView.swift */; };
+		899E492020F3E28200F434B4 /* ShareViaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E491E20F3E28200F434B4 /* ShareViaViewController.swift */; };
+		899E492120F3E28200F434B4 /* ShareViaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899E491F20F3E28200F434B4 /* ShareViaViewController.xib */; };
 		89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A17EBC20C73CB7004B694C /* SortArray.swift */; };
 		89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */; };
 		89B826FE20053BE30094F417 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B826FC20053BE30094F417 /* LayerViewController.swift */; };
@@ -60,6 +65,7 @@
 		8939800720C1C2B500E45987 /* GenericBehave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBehave.swift; sourceTree = "<group>"; };
 		893FDD632003ED8D00DD3D99 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		893FDD642003ED8D00DD3D99 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		8947841E20E6BFDD00AEBACE /* SwiftTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
 		89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewTestViewController.swift; sourceTree = "<group>"; };
 		89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewTestViewController.xib; sourceTree = "<group>"; };
 		8969B0DE1FBFC82400C6B8B0 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
@@ -71,6 +77,10 @@
 		8993C81820C843FF00632452 /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
 		8993C81920C843FF00632452 /* CenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterViewController.xib; sourceTree = "<group>"; };
 		8993C81C20C84B9200632452 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		899E491A20F3DB1800F434B4 /* ShareViaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViaView.xib; sourceTree = "<group>"; };
+		899E491C20F3DB8200F434B4 /* ShareViaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViaView.swift; sourceTree = "<group>"; };
+		899E491E20F3E28200F434B4 /* ShareViaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViaViewController.swift; sourceTree = "<group>"; };
+		899E491F20F3E28200F434B4 /* ShareViaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViaViewController.xib; sourceTree = "<group>"; };
 		89A17EBC20C73CB7004B694C /* SortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray.swift; sourceTree = "<group>"; };
 		89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
 		89B826FC20053BE30094F417 /* LayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +144,14 @@
 			path = Generic;
 			sourceTree = "<group>";
 		};
+		8947841D20E6BFAE00AEBACE /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				8947841E20E6BFDD00AEBACE /* SwiftTimer.swift */,
+			);
+			path = timer;
+			sourceTree = "<group>";
+		};
 		8987F70E20D8EC6500979222 /* collection */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +170,17 @@
 				8993C81920C843FF00632452 /* CenterViewController.xib */,
 			);
 			path = uiheck;
+			sourceTree = "<group>";
+		};
+		899E491920F3DAF400F434B4 /* sharevia */ = {
+			isa = PBXGroup;
+			children = (
+				899E491A20F3DB1800F434B4 /* ShareViaView.xib */,
+				899E491C20F3DB8200F434B4 /* ShareViaView.swift */,
+				899E491E20F3E28200F434B4 /* ShareViaViewController.swift */,
+				899E491F20F3E28200F434B4 /* ShareViaViewController.xib */,
+			);
+			path = sharevia;
 			sourceTree = "<group>";
 		};
 		89A17EBB20C73C9F004B694C /* arraysort */ = {
@@ -192,6 +221,8 @@
 		89FF1F3B1FADB6F9008132D9 /* SwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				899E491920F3DAF400F434B4 /* sharevia */,
+				8947841D20E6BFAE00AEBACE /* timer */,
 				8987F70E20D8EC6500979222 /* collection */,
 				8993C81720C843B100632452 /* uiheck */,
 				89A17EBB20C73C9F004B694C /* arraysort */,
@@ -296,7 +327,9 @@
 				8987F71220D8ECD900979222 /* CollectionViewController.xib in Resources */,
 				89B82701200547100094F417 /* star.png in Resources */,
 				89FD89AD1FB85B8A001AA182 /* meal1.png in Resources */,
+				899E491B20F3DB1800F434B4 /* ShareViaView.xib in Resources */,
 				893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */,
+				899E492120F3E28200F434B4 /* ShareViaViewController.xib in Resources */,
 				89FD89AC1FB85B8A001AA182 /* defaultPhoto.png in Resources */,
 				8993C81D20C84B9200632452 /* square.png in Resources */,
 				89FF1F531FADB730008132D9 /* TutorialViewController.xib in Resources */,
@@ -334,7 +367,10 @@
 				8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */,
 				8939800620C1C1FE00E45987 /* BloodGlucoseAggregate.swift in Sources */,
 				890F9CCA20BC6A4400D36A9A /* SecondFile.swift in Sources */,
+				899E492020F3E28200F434B4 /* ShareViaViewController.swift in Sources */,
+				8947841F20E6BFDD00AEBACE /* SwiftTimer.swift in Sources */,
 				89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */,
+				899E491D20F3DB8200F434B4 /* ShareViaView.swift in Sources */,
 				89FF1F3D1FADB6F9008132D9 /* AppDelegate.swift in Sources */,
 				89CED5AF1FB699D200CBB3F6 /* MainViewController.swift in Sources */,
 				8939800820C1C2B500E45987 /* GenericBehave.swift in Sources */,
