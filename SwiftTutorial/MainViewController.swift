@@ -105,4 +105,17 @@ class MainViewController: UIViewController {
         self.navigationController?.pushViewController(shareViaViewController, animated: true)
     }
     
+    @IBAction func callGraphView(_ sender: UIButton) {
+        if sender.tag == 1{
+            let graphViewController = GraphViewController.init(nibName: "GraphViewController", bundle: nil)
+            self.navigationController?.pushViewController(graphViewController, animated: true)
+        }
+        else if sender.tag == 2{
+            let date: DateTime = DateTime()
+            date.runDateTime()
+        }
+        
+    }
+    
+    
 }

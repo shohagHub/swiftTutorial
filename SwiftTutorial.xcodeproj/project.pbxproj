@@ -17,6 +17,7 @@
 		893FDD652003ED8D00DD3D99 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893FDD632003ED8D00DD3D99 /* ModalViewController.swift */; };
 		893FDD662003ED8D00DD3D99 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893FDD642003ED8D00DD3D99 /* ModalViewController.xib */; };
 		8947841F20E6BFDD00AEBACE /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8947841E20E6BFDD00AEBACE /* SwiftTimer.swift */; };
+		8948CC962108EFBC0030062F /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948CC952108EFBC0030062F /* DateTime.swift */; };
 		89595EED1FD244F0008A3CE5 /* UiTableViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */; };
 		89595EEE1FD244F0008A3CE5 /* UiTableViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */; };
 		8969B0DF1FBFC82400C6B8B0 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8969B0DE1FBFC82400C6B8B0 /* Function.swift */; };
@@ -33,6 +34,9 @@
 		899E492020F3E28200F434B4 /* ShareViaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E491E20F3E28200F434B4 /* ShareViaViewController.swift */; };
 		899E492120F3E28200F434B4 /* ShareViaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899E491F20F3E28200F434B4 /* ShareViaViewController.xib */; };
 		89A17EBD20C73CB7004B694C /* SortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A17EBC20C73CB7004B694C /* SortArray.swift */; };
+		89A723EB2104F2C100D97F1C /* DotGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A723EA2104F2C100D97F1C /* DotGraphView.swift */; };
+		89A723EE2104F7C200D97F1C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A723EC2104F7C200D97F1C /* GraphViewController.swift */; };
+		89A723EF2104F7C200D97F1C /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A723ED2104F7C200D97F1C /* GraphViewController.xib */; };
 		89A93ADF1FE16DF900745321 /* CoreBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */; };
 		89B826FE20053BE30094F417 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B826FC20053BE30094F417 /* LayerViewController.swift */; };
 		89B826FF20053BE30094F417 /* LayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B826FD20053BE30094F417 /* LayerViewController.xib */; };
@@ -66,6 +70,7 @@
 		893FDD632003ED8D00DD3D99 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		893FDD642003ED8D00DD3D99 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		8947841E20E6BFDD00AEBACE /* SwiftTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
+		8948CC952108EFBC0030062F /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
 		89595EEB1FD244F0008A3CE5 /* UiTableViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTableViewTestViewController.swift; sourceTree = "<group>"; };
 		89595EEC1FD244F0008A3CE5 /* UiTableViewTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UiTableViewTestViewController.xib; sourceTree = "<group>"; };
 		8969B0DE1FBFC82400C6B8B0 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
@@ -82,6 +87,9 @@
 		899E491E20F3E28200F434B4 /* ShareViaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViaViewController.swift; sourceTree = "<group>"; };
 		899E491F20F3E28200F434B4 /* ShareViaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViaViewController.xib; sourceTree = "<group>"; };
 		89A17EBC20C73CB7004B694C /* SortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortArray.swift; sourceTree = "<group>"; };
+		89A723EA2104F2C100D97F1C /* DotGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGraphView.swift; sourceTree = "<group>"; };
+		89A723EC2104F7C200D97F1C /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		89A723ED2104F7C200D97F1C /* GraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
 		89A93ADE1FE16DF900745321 /* CoreBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetooth.swift; sourceTree = "<group>"; };
 		89B826FC20053BE30094F417 /* LayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerViewController.swift; sourceTree = "<group>"; };
 		89B826FD20053BE30094F417 /* LayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerViewController.xib; sourceTree = "<group>"; };
@@ -152,6 +160,14 @@
 			path = timer;
 			sourceTree = "<group>";
 		};
+		8948CC942108CC400030062F /* datetime */ = {
+			isa = PBXGroup;
+			children = (
+				8948CC952108EFBC0030062F /* DateTime.swift */,
+			);
+			path = datetime;
+			sourceTree = "<group>";
+		};
 		8987F70E20D8EC6500979222 /* collection */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +207,16 @@
 			path = arraysort;
 			sourceTree = "<group>";
 		};
+		89A723E92104F29B00D97F1C /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				89A723EA2104F2C100D97F1C /* DotGraphView.swift */,
+				89A723EC2104F7C200D97F1C /* GraphViewController.swift */,
+				89A723ED2104F7C200D97F1C /* GraphViewController.xib */,
+			);
+			path = graph;
+			sourceTree = "<group>";
+		};
 		89FD89A91FB85B8A001AA182 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +247,8 @@
 		89FF1F3B1FADB6F9008132D9 /* SwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8948CC942108CC400030062F /* datetime */,
+				89A723E92104F29B00D97F1C /* graph */,
 				899E491920F3DAF400F434B4 /* sharevia */,
 				8947841D20E6BFAE00AEBACE /* timer */,
 				8987F70E20D8EC6500979222 /* collection */,
@@ -333,6 +361,7 @@
 				89FD89AC1FB85B8A001AA182 /* defaultPhoto.png in Resources */,
 				8993C81D20C84B9200632452 /* square.png in Resources */,
 				89FF1F531FADB730008132D9 /* TutorialViewController.xib in Resources */,
+				89A723EF2104F7C200D97F1C /* GraphViewController.xib in Resources */,
 				89B826FF20053BE30094F417 /* LayerViewController.xib in Resources */,
 				89FF1F421FADB6F9008132D9 /* Main.storyboard in Resources */,
 				8987F71620D8FC1500979222 /* CustomCollectionViewCell.xib in Resources */,
@@ -352,6 +381,7 @@
 				89FF1F3F1FADB6F9008132D9 /* ViewController.swift in Sources */,
 				8939800420C1C11800E45987 /* BaseAggregate.swift in Sources */,
 				890F9CC820BC6A3700D36A9A /* FirstFile.swift in Sources */,
+				8948CC962108EFBC0030062F /* DateTime.swift in Sources */,
 				89F51B702001490E00358370 /* Inheritence.swift in Sources */,
 				89CED5B31FB69C4000CBB3F6 /* FoodViewController.swift in Sources */,
 				89FF1F521FADB730008132D9 /* TutorialViewController.swift in Sources */,
@@ -366,6 +396,8 @@
 				89266C701FCC64E6000615CA /* RatingControl.swift in Sources */,
 				8969B0E11FC024CF00C6B8B0 /* Closure.swift in Sources */,
 				8939800620C1C1FE00E45987 /* BloodGlucoseAggregate.swift in Sources */,
+				89A723EB2104F2C100D97F1C /* DotGraphView.swift in Sources */,
+				89A723EE2104F7C200D97F1C /* GraphViewController.swift in Sources */,
 				890F9CCA20BC6A4400D36A9A /* SecondFile.swift in Sources */,
 				899E492020F3E28200F434B4 /* ShareViaViewController.swift in Sources */,
 				8947841F20E6BFDD00AEBACE /* SwiftTimer.swift in Sources */,

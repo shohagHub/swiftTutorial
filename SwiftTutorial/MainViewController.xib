@@ -103,6 +103,33 @@
                         <action selector="shareVia:" destination="-1" eventType="touchUpInside" id="p26-Je-ruj"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="coX-OF-TdJ">
+                    <rect key="frame" x="0.0" y="506" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvj-if-cnc">
+                            <rect key="frame" x="2" y="10" width="43" height="30"/>
+                            <state key="normal" title="Graph"/>
+                            <connections>
+                                <action selector="callGraphView:" destination="-1" eventType="touchUpInside" id="JLT-f1-XXy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCt-ln-BN2">
+                            <rect key="frame" x="53" y="10" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="callGraphView:" destination="-1" eventType="touchUpInside" id="bd5-xb-2X2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="HCt-ln-BN2" firstAttribute="leading" secondItem="Gvj-if-cnc" secondAttribute="trailing" constant="8" id="KMK-NV-vsR"/>
+                        <constraint firstItem="Gvj-if-cnc" firstAttribute="centerY" secondItem="coX-OF-TdJ" secondAttribute="centerY" id="hor-mT-rhf"/>
+                        <constraint firstAttribute="height" constant="50" id="iRK-ki-okT"/>
+                        <constraint firstItem="Gvj-if-cnc" firstAttribute="leading" secondItem="coX-OF-TdJ" secondAttribute="leading" constant="2" id="mo1-Sl-bSQ"/>
+                        <constraint firstItem="HCt-ln-BN2" firstAttribute="centerY" secondItem="coX-OF-TdJ" secondAttribute="centerY" id="vnT-8g-ah8"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -122,8 +149,10 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qp8-RQ-mTW" secondAttribute="trailing" id="MJI-rT-bQx"/>
                 <constraint firstItem="PQ7-wc-Ckp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MOG-Rk-Hoa"/>
                 <constraint firstItem="qvm-o2-0PG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MQx-C8-Bux"/>
+                <constraint firstItem="coX-OF-TdJ" firstAttribute="top" secondItem="3Ji-W8-nw7" secondAttribute="bottom" id="RP8-Z6-jU0"/>
                 <constraint firstItem="c4l-O8-yAz" firstAttribute="top" secondItem="gdt-dr-uCr" secondAttribute="bottom" constant="8" id="Rqd-ay-BHr"/>
                 <constraint firstItem="ywB-r2-00S" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Tig-Sh-W6F"/>
+                <constraint firstItem="coX-OF-TdJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ue7-Fh-k55"/>
                 <constraint firstItem="hrX-wn-a8W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="VHv-oC-G8h"/>
                 <constraint firstItem="c4l-O8-yAz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ap3-5w-r0h"/>
                 <constraint firstItem="VBa-Qw-ToL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cMN-oe-KEM"/>
@@ -132,6 +161,7 @@
                 <constraint firstItem="Sg0-42-qkB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kAc-Q9-AUb"/>
                 <constraint firstItem="3Ji-W8-nw7" firstAttribute="top" secondItem="Qp8-RQ-mTW" secondAttribute="bottom" constant="8" id="liC-Vw-DxM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VBa-Qw-ToL" secondAttribute="trailing" id="mrs-ab-R89"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="coX-OF-TdJ" secondAttribute="trailing" id="nzW-z7-f4j"/>
                 <constraint firstItem="Qp8-RQ-mTW" firstAttribute="top" secondItem="VBa-Qw-ToL" secondAttribute="bottom" constant="14" id="qMZ-6c-Ipi"/>
                 <constraint firstItem="hrX-wn-a8W" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="yGn-Od-lah"/>
             </constraints>

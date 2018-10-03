@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GraphViewController" customModule="SwiftTutorial" customModuleProvider="target">
+            <connections>
+                <outlet property="dotGraphView" destination="XZa-eo-EvN" id="xLh-Py-3Mv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdG-Lo-1H2" userLabel="ButtonView">
+                    <rect key="frame" x="0.0" y="20" width="375" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8K-7m-PhI">
+                            <rect key="frame" x="0.0" y="20" width="30" height="30"/>
+                            <state key="normal" title="Dot"/>
+                            <connections>
+                                <action selector="dotGraphView:" destination="-1" eventType="touchUpInside" id="HXP-3C-j1s"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="r8K-7m-PhI" firstAttribute="leading" secondItem="pdG-Lo-1H2" secondAttribute="leading" id="4LJ-NC-Whz"/>
+                        <constraint firstAttribute="height" constant="70" id="8Ab-9o-LC4"/>
+                        <constraint firstItem="r8K-7m-PhI" firstAttribute="centerY" secondItem="pdG-Lo-1H2" secondAttribute="centerY" id="s8f-av-dky"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZa-eo-EvN">
+                    <rect key="frame" x="0.0" y="90" width="375" height="170"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dot Graph  view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7a-Uh-Lrz">
+                            <rect key="frame" x="126.5" y="0.0" width="122.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="j7a-Uh-Lrz" firstAttribute="top" secondItem="XZa-eo-EvN" secondAttribute="top" id="DzP-b9-dvz"/>
+                        <constraint firstItem="j7a-Uh-Lrz" firstAttribute="centerX" secondItem="XZa-eo-EvN" secondAttribute="centerX" id="Obm-gp-Vna"/>
+                        <constraint firstAttribute="height" constant="170" id="eoI-l3-uLC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pdG-Lo-1H2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="V1R-mq-PP4"/>
+                <constraint firstItem="pdG-Lo-1H2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZyL-qF-EUV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XZa-eo-EvN" secondAttribute="trailing" id="n5f-N7-NGG"/>
+                <constraint firstItem="XZa-eo-EvN" firstAttribute="top" secondItem="pdG-Lo-1H2" secondAttribute="bottom" id="ovV-s5-3Jj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pdG-Lo-1H2" secondAttribute="trailing" id="rwZ-nD-KbK"/>
+                <constraint firstItem="XZa-eo-EvN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="y9q-av-eRY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
